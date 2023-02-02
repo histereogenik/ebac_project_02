@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacts</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="./images/contacts.png" alt="two people emoji" />
+            <h1>Contacts</h1>
+        </header>
+        <form id="add-contact">
+            <input type="text" id="name-contact" placeholder="Contact's name" required />
+            <input type="tel" id="phone-contact" placeholder="Phone number" required />
+            <input type="text" id="nickname" placeholder="Nickname (optional)" />
+            <button type="submit" id="btn-submit">ADD +</button>
+        </form>
+        <p id="success-message">New contact added to your list</p>
+        <table cellspacing="0">
+            <thead>
+                <tr>
+                    <th><img src="./images/single_person.png" alt="a single person icon" />Contact's Name</th>
+                    <th><img src="./images/telephone.png" alt="telephone icon" />Phone number</th>
+                    <th><img src="images/ninja.png" alt="ninja icon" id="ninja-icon"/> Nickname</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <footer>
+        &copy; Histereogenik - All rights psychedelically reserved - 2023
+    </footer>
+    <script src="./main.js"></script>
+</body>
+</html>
